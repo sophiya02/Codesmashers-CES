@@ -148,7 +148,7 @@
 	====================================================================================*/
     #page-about{
         padding: 0rem;
-        overflow:auto;
+        overflow: auto;
         height:max-content;
         z-index:100;
     }
@@ -193,7 +193,11 @@
    #page-winners {
         overflow: visible;
         z-index: 10;
-        padding: 5rem;
+        padding: 2rem;
+        position: absolute;
+        top:0;
+        left:0;
+
     }
     #page-winners header{ 
         padding-top: 1rem;
