@@ -10,6 +10,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- font awesome icons -->
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 	<!-- css-stylesheets -->
@@ -111,7 +112,7 @@
 				<!-- Begin rotate box-1 -->
 				<div class="rotate-box-1-wrapper">
 					<div class="container">
-						<div class="row">
+						<div class="row ">
 							<div class="col-lg-3 col-md-6 col-sm-12">
 								<a href="#" class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0">
 									<span class="rotate-box-icon"><i class="fa fa-users"></i></span>
@@ -201,26 +202,26 @@
 							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=15"
 							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=16"
 							alt="image"></a> </div>
-				<div class="first-column hidden-sm hidden-md"> <a href="#"><img src="https://picsum.photos/300/300?random=17"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=18"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=19"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=20"
-							alt="image"></a> </div>
-				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img src="https://picsum.photos/300/300?random=21"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=22"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=23"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=24"
-							alt="image"></a> </div>
-				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img src="https://picsum.photos/300/300?random=25"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=26"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=27"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=28"
-							alt="image"></a> </div>
-				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img src="https://picsum.photos/300/300?random=29"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=30"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=31"
-							alt="image"></a> <a href="#"><img src="https://picsum.photos/300/300?random=32"
-							alt="image"></a> </div>
+				<div class="first-column hidden-sm hidden-md"> <a href="#"><img
+							src="https://picsum.photos/300/300?random=17" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=18" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=19" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=20" alt="image"></a> </div>
+				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img
+							src="https://picsum.photos/300/300?random=21" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=22" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=23" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=24" alt="image"></a> </div>
+				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img
+							src="https://picsum.photos/300/300?random=25" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=26" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=27" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=28" alt="image"></a> </div>
+				<div class="first-column  hidden-sm hidden-md"> <a href="#"><img
+							src="https://picsum.photos/300/300?random=29" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=30" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=31" alt="image"></a> <a href="#"><img
+							src="https://picsum.photos/300/300?random=32" alt="image"></a> </div>
 			</div>
 			<!-- Event-Gallery-Images starts -->
 		</div>
@@ -238,7 +239,7 @@
 			</header>
 			<!-- Winners-Heading ends -->
 			<!-- image card container starts -->
-			<div class="hero-container row justify-content-center">
+			<div class="hero-container row ">
 
 				<div class="main-container col-12 col-sm-12 col-md-4 col-lg-3">
 					<div class="poster-container">
@@ -250,9 +251,16 @@
 							<p class="ticket__movie-slogan">
 								More human than human is our motto.
 							</p>
-							<p class="ticket__current-price">$28.00</p>
-							<p class="ticket__old-price">$44.99</p>
-							<button class="ticket__buy-btn">Buy now</button>
+							<!-- Create an icon wrapped by the fa-stack class -->
+							<span class="fa-stack">
+								<!-- The icon that will wrap the number -->
+								<span class="fa fa-circle-o fa-stack-2x c-2"></span>
+								<!-- a strong element with the custom content, in this case a number -->
+								<strong class="fa-stack-1x n-2">
+									2
+								</strong>
+							</span>
+
 						</div>
 					</div>
 				</div>
@@ -263,11 +271,20 @@
 					</div>
 					<div class="ticket-container">
 						<div class="ticket__content">
-							<h4 class="ticket__movie-title">Justice League</h4>
-							<p class="ticket__movie-slogan">You can't save the world alone.</p>
-							<p class="ticket__current-price">$20.75</p>
-							<p class="ticket__old-price">$40.99</p>
-							<button class="ticket__buy-btn">Buy now</button>
+							<h4 class="ticket__movie-title">Blade Runner 2049</h4>
+							<p class="ticket__movie-slogan">
+								More human than human is our motto.
+							</p>
+							<!-- Create an icon wrapped by the fa-stack class -->
+							<span class="fa-stack">
+								<!-- The icon that will wrap the number -->
+								<span class="fa fa-circle-o fa-stack-2x c-1"></span>
+								<!-- a strong element with the custom content, in this case a number -->
+								<strong class="fa-stack-1x n-1">
+									1
+								</strong>
+							</span>
+
 						</div>
 					</div>
 				</div>
@@ -277,11 +294,20 @@
 					</div>
 					<div class="ticket-container">
 						<div class="ticket__content">
-							<h4 class="ticket__movie-title">Justice League</h4>
-							<p class="ticket__movie-slogan">You can't save the world alone.</p>
-							<p class="ticket__current-price">$20.75</p>
-							<p class="ticket__old-price">$40.99</p>
-							<button class="ticket__buy-btn">Buy now</button>
+							<h4 class="ticket__movie-title">Blade Runner 2049</h4>
+							<p class="ticket__movie-slogan">
+								More human than human is our motto.
+							</p>
+							<!-- Create an icon wrapped by the fa-stack class -->
+							<span class="fa-stack">
+								<!-- The icon that will wrap the number -->
+								<span class="fa fa-circle-o fa-stack-2x c-3"></span>
+								<!-- a strong element with the custom content, in this case a number -->
+								<strong class="fa-stack-1x n-3">
+									3
+								</strong>
+							</span>
+
 						</div>
 					</div>
 				</div>
@@ -293,7 +319,7 @@
 		====================================================================================-->
 
 		<!-- ==================================================================================
-			Winners Page Starts
+			Team Page Starts
 		====================================================================================-->
 		<div class="page" id="page-team">
 			<div class="container ">
@@ -354,7 +380,7 @@
 			</div>
 		</div>
 		<!-- ==================================================================================
-			Winners Page Ends
+			Team Page Ends
 		====================================================================================-->
 
 		<!-- ==================================================================================
@@ -445,7 +471,7 @@
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/script.js"></script>
-	
+
 	<!-- typed.js -->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script>

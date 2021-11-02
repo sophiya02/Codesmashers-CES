@@ -463,14 +463,14 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 			  width: 270px;
 			  height: 540px;
 			  position: relative;
-			  margin: 0 20px;
+			  margin: 0 auto;
 		  }
 		  
 		  .poster-container {
-			  width: 230px;
+			  width: 14.5rem;
 			  position: absolute;
 			  top: 0;
-			  left: 20px;
+			  left: 18%;
 			  z-index: 9999;
 		  }
 		  
@@ -481,14 +481,15 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 		  
 		  .ticket-container {
 			  background: #fff;
-			  width: 270px;
-			  height: 520px;
+			  width: 17rem;
+			  height: 25rem;
 			  display: flex;
 			  flex-direction: column;
 			  align-items: center;
 			  border-radius: 5px;
 			  position: absolute;
-			  top: 20px;
+			  left:12%;
+			  top: 15%;
 			  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.6);
 			  opacity: 0;
 		  }
@@ -552,13 +553,13 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 		  .ticket__content {
 			  width: 100%;
 			  position: absolute;
-			  bottom: 0;
+			  bottom: 15%;
 			  text-align: center;
 		  }
 		  
 		  .ticket__movie-title {
 			  text-transform: uppercase;
-			  margin-bottom: 5px;
+			  margin-bottom: 15px;
 		  }
 		  
 		  .ticket__movie-slogan {
@@ -567,31 +568,46 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 			  margin-bottom: 20px;
 		  }
 		  
-		  .ticket__current-price {
-			  color: #69c982;
-			  font-size: 1.4rem;
-			  font-weight: bold;
-		  }
+		 
 		  
-		  .ticket__old-price {
-			  color: #999;
-			  text-decoration: line-through;
-			  margin-bottom: 10px;
-		  }
+		 .ticket__content .c-1{
+			  font-size:8rem;
+			color:blue;
+			position: absolute;
+			top:-3rem;
+			left: -1.75rem;
+
+		}
+		.ticket__content .n-1{
+			font-size:5rem;
+			color:blue;
+			
+		}
+		.ticket__content .c-2{
+			font-size:8rem;
+		  color:red;
+		  position: absolute;
+		  top:-3rem;
+		  left: -1.75rem;
+
+	  }
+	  .ticket__content .n-2{
+		  font-size:5rem;
+		  color:red;
 		  
-		  .ticket__buy-btn {
-			  cursor: pointer;
-			  width: 100%;
-			  background: #2f2f2f;
-			  color: white;
-			  padding: 15px 0;
-			  font-size: 1rem;
-			  font-weight: bold;
-			  text-transform: uppercase;
-			  border: 0;
-			  border-bottom-left-radius: 5px;
-			  border-bottom-right-radius: 5px;
-		  } 
+	  }
+	  .ticket__content .c-3{
+		font-size:8rem;
+	  color: yellow;
+	  position: absolute;
+	  top:-3rem;
+	  left: -1.75rem;
+
+  }
+  .ticket__content .n-3{
+	  font-size:5rem;
+	  color: yellow;	  
+  }
 
 /* ==================================================================================
 	Winners Page css endss
@@ -648,7 +664,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 			}
 			.single_advisor_profile .advisor_thumb .social-info a {
 				font-size: 14px;
-				color: #020710;
+				color: #161a20;
 				padding: 0 5px;
 			}
 			.single_advisor_profile .advisor_thumb .social-info a:hover,
