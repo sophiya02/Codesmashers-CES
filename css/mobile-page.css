@@ -1,0 +1,235 @@
+@media screen and (max-width: 1000px) {
+
+/* ==================================================================================
+		Event Gallery Page css starts
+	====================================================================================*/
+    .myimages {
+        height: 750px;
+    }
+    .myimages .hidden-md{
+        display: none;
+    }
+
+    /* ==================================================================================
+	Team Page css starts
+	====================================================================================*/
+    #page-team{
+        padding:0;
+        margin:0rem;
+        box-sizing: border-box;
+    }
+    #page-team .container{
+        margin: 0rem ;
+        max-width: 100vw;
+        padding: 0rem;
+    }
+    .single_advisor_profile .advisor_thumb::after {
+        height:8rem;
+        bottom: -5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .js body {
+        overflow: visible;
+    }
+	.info {
+		max-width: 100%;
+	}
+	.poster {
+		position: relative;
+		top: auto;
+		left: auto;
+		display: block;
+		max-width: 100%;
+		max-height: 50vh;
+		margin: 0 0 0 50%;
+	}
+	.pages-nav__item {
+		width: 50%;
+		min-height: 20px;
+	}
+	.link--page {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.link--social {
+		margin: 0 0.1em;
+	}
+
+   
+    /* ==================================================================================
+		Home Page css starts
+	====================================================================================*/
+    #page-home{
+        overflow: visible;
+    }
+	.js #page-home .intro h1 {
+		font-size: 2rem ;
+	}
+	.js #page-home   .intro h3 {
+	  font-size: 1rem;
+	}
+    .js #page-home .intro .cs-head {
+		font-size: 2rem;
+	}
+
+    /* ==================================================================================
+		About Page css starts
+	====================================================================================*/
+    #page-about{
+        padding: 2.5rem;
+        overflow: visible;
+    }
+
+
+
+/* ==================================================================================
+		event-galllery Page css starts
+	====================================================================================*/
+    #page-event-gallery{
+        overflow: visible;
+    }
+    .myimages {
+        /* overflow: auto; */
+        height: 750px;
+    }
+    .myimages .hidden-md{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+	.js .pages-nav {
+		display: block;
+		padding: 10px 20px 0 20px;
+		text-align: left;
+	}
+	.js .pages-nav__item {
+		width: 100%;
+		padding: 4px 0;
+	}
+	.js .pages-nav__item--small {
+		display: inline-block;
+		width: auto;
+		margin-right: 5px;
+	}
+	.pages-nav__item--social {
+		font-size: 0.9em;
+	}
+	.menu-button {
+		top: 1.5rem;
+		right: 1.5rem;
+		left: auto;
+	}
+	.info {
+		font-size: 0.85em;
+	}
+	.poster {
+		margin: 1em;
+	}
+
+    .bp-header {
+		padding: 5rem 2rem 1rem;
+	}
+	.bp-header__title {
+		font-size: 1.5rem;
+	}
+     /* ==================================================================================
+		Home Page css starts
+	====================================================================================*/
+    #page-home{
+        overflow:auto;
+        z-index:100;
+    }
+ /* ==================================================================================
+		About Page css starts
+	====================================================================================*/
+    #page-about{
+        padding: 0rem;
+        overflow:auto;
+        height:max-content;
+        z-index:100;
+    }
+    .devider {
+        width: 100%;
+        height: 1rem;
+        background: url('../images/devider.png') no-repeat center center;
+        margin: .5rem 0 .5rem;
+    }
+    .rotate-box-1, .rotate-box-2 {
+        margin: 0.5rem 0;
+    }
+    .rotate-box-1 h4, .rotate-box-2 h4 {
+        font-weight: 200;
+    }
+    .rotate-box-1 p {
+        padding: 0 auto;
+        font-size: .8rem;
+    }
+
+
+/* ==================================================================================
+		Event Gallery Page css starts
+	====================================================================================*/
+    #page-event-gallery {
+        overflow:auto;
+        padding: 1rem;
+        margin:0;
+        height:max-content;
+        z-index:10;
+    }
+    .myimages {
+        height: 600px;
+    }
+    .myimages .hidden-sm{
+        display: none;
+    }
+    /* ==================================================================================
+		Winners Page css starts
+	====================================================================================*/
+  
+   #page-winners {
+        overflow: auto;
+        z-index: 10;
+    }
+    
+    
+  
+/* ==================================================================================
+		Team Page css starts
+	====================================================================================*/
+#page-team {
+    overflow:auto;
+    z-index:10;
+}
+    .single_advisor_profile {
+       height:20rem;
+    }
+    .single_advisor_profile .advisor_thumb {
+        /* width: 15rem; */
+       height:15rem;
+    }
+    .single_advisor_profile .advisor_thumb::after {
+        height:5rem;
+        bottom: -3rem;
+    }
+    .single_advisor_profile .single_advisor_details_info {
+        padding: 1.5rem;
+    }
+
+    /* ==================================================================================
+		Team Page css starts
+	====================================================================================*/
+    #page-faq {
+    overflow:auto;
+    z-index:10;
+    }
+    #page-faq .faq-container{
+        position: absolute;
+        top:5%;
+        left:12.5%;
+    }
+
+}
