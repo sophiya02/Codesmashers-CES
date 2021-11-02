@@ -191,19 +191,24 @@
 	====================================================================================*/
   
    #page-winners {
-        overflow: auto;
+        overflow: visible;
         z-index: 10;
-        padiing: 5rem;
+        padding: 5rem;
+    }
+    #page-winners header{ 
+        padding-top: 1rem;
+        padding-bottom: 0rem;
     }
     .main-container{
-        height:25rem;
+        height:16rem;
     }
     .ticket-container {
         width: 14.5rem;
         height: 14.5rem;
         position: absolute;
         left:18%;
-        top: 29%;
+        top: 0%;
+        background-color: black;
         opacity: 0.5;
     }
     .main-container:hover .poster-container {
@@ -211,6 +216,16 @@
     }
     .main-container:hover .ticket-container {
         opacity: 1;
+    }
+   
+    .ticket__movie-title {
+      color:cornsilk;padding-top: 0.5rem;
+    }
+    
+    .ticket__movie-slogan {
+        color:cornsilk;
+        padding-bottom:2rem;
+        opacity:1;
     }
     .ticket__content .fa-stack{
       position: relative;
