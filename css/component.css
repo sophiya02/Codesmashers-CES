@@ -549,7 +549,11 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 			  transform: scale(1);
 			}
 		  } */
-		  
+		  .ticket__content .fa-stack{
+			position: relative;
+			margin-left:-1rem;
+			  padding-bottom: 1.5rem;
+		}
 		  .ticket__content {
 			  width: 100%;
 			  position: absolute;
@@ -565,8 +569,8 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 		  .ticket__movie-slogan {
 			  color: #999;
 			  font-size: 0.9rem;
-			  margin-bottom: 20px;
-			  padding: 1rem auto;
+			  margin-bottom: 2.5rem;
+			  padding: 2rem auto;
 		  }
 		  
 		 
